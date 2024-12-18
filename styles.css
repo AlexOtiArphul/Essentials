@@ -1,0 +1,288 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+.header {
+    background-color: #6b8e23; /* Olive green for an organic feel */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner Section */
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #6b8e23, #a4c639);
+    color: white;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.banner button {
+    background-color: white;
+    color: #6b8e23;
+    border: 2px solid #6b8e23;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.banner button:hover {
+    background-color: #6b8e23;
+    color: white;
+}
+
+/* Products Section */
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product h3 {
+    color: #6b8e23;
+    margin: 10px 0;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #6b8e23;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product button:hover {
+    background-color: #a4c639;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #eef7e9;
+}
+
+.contact form {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.contact label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.contact input, 
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    display: block;
+    margin: 0 auto;
+    background-color: #6b8e23;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #a4c639;
+}
+
+/* Reviews Section */
+.reviews blockquote {
+    font-style: italic;
+    color: #6b8e23;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* About Section */
+.about {
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #eef7e9;
+    font-size: 1.2em;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #6b8e23;
+    color: white;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 90%;
+    }
+}
+
+/*
+BACKGROUND IMG*/
+
+
+.IMG {
+    position:relative;  
+    max-height:30%;
+    padding: auto;
+    
+
+    
+
+}
+
+.IMG .IMG1 {
+    max-height: 700PX;
+    
+    
+    
+
+}
+.IMG .IMG2{
+    
+    max-height: 700px;
+}
+
+.IMG2 {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    max-width: fit-content;
+    
+
+}
+
+/* reviews*/
+
+.product1 {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    left:60%;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+    left: 40%;
+}
+.reviews .product1{
+    left: 35%;
+    position: absolute;
+    top: 30%;
+}
+.product1 .img{
+    min-width: 10px;
+    
+}
+
+.product2 {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    left:60%;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+    left: 40%;
+}
+.reviews .product2{
+    left: 70%;
+    position: absolute;
+    top: 30%;
+}
+.product2 .img{
+    min-width: 10px;
+    
+}
+    
+
+
+    

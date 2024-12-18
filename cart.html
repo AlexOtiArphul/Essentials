@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Organic Glow Hair Naturals</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Your Cart</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="cart">
+        <h2>Items in Your Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- JavaScript will dynamically populate this section -->
+            </tbody>
+        </table>
+        <div class="total">
+            <p>Total: $<span id="cart-total">0.00</span></p>
+            <a href="checkout.html"><button>Proceed to Checkout</button></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Organic Glow Hair Naturals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
